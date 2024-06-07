@@ -88,5 +88,6 @@ for i in live_list:
         s += i
     else:
         s += ", " + i
+    cnt+=1
 
 st.markdown(s)
